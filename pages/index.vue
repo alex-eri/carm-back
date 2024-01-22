@@ -5,7 +5,7 @@
  -->
 
 <template>
-    <div class="container">
+    <v-container fluid>
         <b-navbar>
             <b-navbar-nav>
                 <b-nav-item to="/" title="Расписание">🏠</b-nav-item>
@@ -28,7 +28,7 @@
                 </b-tr>
             </b-tbody>
         </b-table>
-    </div>
+    </v-container>
 </template>
 
 <script>
