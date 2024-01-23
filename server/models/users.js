@@ -12,7 +12,8 @@ export const Users = sequelize.define("User", {
     name: DataTypes.TEXT,
     login: DataTypes.TEXT,
     password: DataTypes.TEXT,
-    archive: DataTypes.BOOLEAN
+    archive: DataTypes.BOOLEAN,
+    phone: DataTypes.TEXT,
 }, {
     tableName: 'Users',
     name: {
